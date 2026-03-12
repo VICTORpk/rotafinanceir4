@@ -1,7 +1,10 @@
 .main {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(31, 31, 31);
+  background-color: #fffffe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -9,8 +12,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 80%;
   flex-direction: column;
+  box-shadow: 10px 10px #000000BF;
+  padding: 20px;
+  border-radius: 12px;
+  width: 550px;
+  border: 1px solid #00000040;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 /*perfil e botões*/
@@ -32,10 +42,10 @@
 }
 
 .perfil h1 {
-  color: #fffffe;
+  color: #303036;
 }
 .perfil h3 {
-  color: #abd1c6;
+  color: #303036;
 }
 
 .botoes{
@@ -45,20 +55,21 @@
 }
 .botoes a {
   margin: 4px;
-  background-color: #f9bc60;
+  background-color: #004643;
   width: 328px;
   height: 54px;
+  border-radius: 12px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color: #001e1d;
+  color: #fffffe;
 }
 
 .botoes a:hover {
-  background-color: #e2a13e;
+  background-color: #004643BF;
 }
 /*
 .inferior {
